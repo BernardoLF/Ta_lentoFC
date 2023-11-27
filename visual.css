@@ -1,0 +1,47 @@
+body {
+    background-color: green;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.primeiro_div {
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 30px        
+}
+
+h3 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {margin: 20px;}
+
+table, td, th {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.jogadores {
+    border: solid 5px   white;
+}
