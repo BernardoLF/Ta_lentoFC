@@ -1,29 +1,44 @@
 body {
-    background-color: green;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6c9d21; 
+    background-image: url(https://img.freepik.com/vetores-gratis/campo-de-futebol-verde_225004-1137.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    list-style-type: none;
+    
+}
+
+header {
+    background-color: #6c9d21;
+
 }
 
 h1 {
     text-align: center;
-    background-color: green;
-    color: white;
+    
+    color: black;
     margin: 0px;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .primeiro_div {
-    background-color: green;
-    color: white;
+    
+    color: black;
+    font-size: 20px;
 }
 
 h2 {
     margin-left: 20px;
-    font-size: 30px        
+    font-size: 50px;
+    text-align: center;      
 }
 
 h3 {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 35px;
+    text-align: center;
 }
 
 ul {
@@ -43,5 +58,5 @@ table, td, th {
 }
 
 .jogadores {
-    border: solid 5px   white;
+    border: solid 5px   black;
 }
