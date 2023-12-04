@@ -60,3 +60,21 @@ table, td, th {
 .jogadores {
     border: solid 5px   black;
 }
+
+.imagempaginajogardor {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.numeropaginajogador {
+    font-size: 70px;
+    color: black;
+    margin-left: 25px;
+}
+
+.textopaginajogador {
+    font-size: 20px;
+    color:black;
+    margin-left: 25px;
+    
+}
