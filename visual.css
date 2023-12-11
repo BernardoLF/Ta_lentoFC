@@ -8,25 +8,45 @@ body {
     background-position: center;
     list-style-type: none;
     text-decoration: none;
+    font-family: Arial, sans-serif;
 }
 
 header {
     background-color: #6c9d21;
-
-}
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    }
 
 h1 {
     text-align: center;
-    
     color: black;
     margin: 0px;
-    font-size: 70px;
+    font-size: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 0 86px;
 }
 
 .primeiro_div {
     
     color: black;
     font-size: 20px;
+    margin-top: 100px;
 }
 
 h2 {
@@ -86,3 +106,14 @@ a {
     text-decoration: none;
   }
 
+  .descricao {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width: 60%;
+}
