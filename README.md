@@ -7,4 +7,4 @@ Projeto para a disciplina *Tecnologias da Internet*
 + Bernardo Fontes,
 + Gonçalo Luis
 
-[QR Site](https://bernardolf.github.io/Ta_lentoFC/QRCODE.png)
+![QR Site](https://bernardolf.github.io/Ta_lentoFC/QRCODE.png)
