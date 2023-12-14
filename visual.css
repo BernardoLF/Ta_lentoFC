@@ -1,21 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #6c9d21; 
-    background-image: url(https://img.freepik.com/vetores-gratis/campo-de-futebol-verde_225004-1137.jpg); 
+    background-color: #ecf0f1; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     list-style-type: none;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto'
 }
 
 header {
-    background-color: #6c9d21;
+    background-color: grey;
     padding: 20px;
     text-align: center;
-    color: black;
+    color: white;
     position: fixed;
     right: 0;
     left: 0;
@@ -27,19 +26,15 @@ h1 {
     color: black;
     margin: 0px;
     font-size: 60px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
+    
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bold;
     font-size: 45px;
-    padding: 0 86px;
+    
 }
 
 .primeiro_div {
@@ -84,7 +79,7 @@ table, td, th {
 
 .imagempaginajogardor {
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 140px;
 }
 
 .numeropaginajogador {
@@ -116,4 +111,19 @@ a {
     margin-right: auto;
     font-size: 30px;
     width: 60%;
+}
+
+ul {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estrutura_ti {
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.estrutura_t {
+    font-size: 40px;
 }
