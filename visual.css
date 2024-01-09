@@ -7,7 +7,6 @@ body {
     background-position: center;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Roboto'
 }
 
 header {
@@ -86,14 +85,23 @@ table, td, th {
     font-size: 70px;
     color: black;
     margin-left: 25px;
+    margin-top: 100px;
 }
 
 .textopaginajogador {
     font-size: 20px;
     color:black;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 300px;
+}
+
+.nomejogadores {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
 }
 
 a {
@@ -111,10 +119,11 @@ a {
     margin-right: auto;
     font-size: 30px;
     width: 60%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 ul {
-    width: 50%; 
+    width: 60%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -122,10 +131,16 @@ ul {
 .estrutura_ti {
     margin-top: 120px;
     font-size: 40px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
 }
 
 .estrutura_t {
     font-size: 40px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
 }
 
 footer {
@@ -138,4 +153,8 @@ footer {
 
 .espaco {
     margin: 100px;
+}
+
+.flexjogador {
+    display: flex;
 }
